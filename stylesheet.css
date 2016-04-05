@@ -1,0 +1,26 @@
+ body {
+            background-color: slategrey;
+            font-family: helvetica;
+            background-image: url("http://motoki-y.sakura.ne.jp/kabegami/213/a.gif");
+            background-repeat: repeat;
+            color: whitesmoke;
+        
+        }
+        h2 {
+            color: lightyellow;
+        
+        }
+        p {
+            position: relative;
+            margin-left: 50px;
+            color: whitesmoke;
+    
+        }
+    .flip {
+        transform: scaleX(-1);
+        filter: FlipH;
+        width: 150px;
+        }
+img {
+    width: 150px;
+}
